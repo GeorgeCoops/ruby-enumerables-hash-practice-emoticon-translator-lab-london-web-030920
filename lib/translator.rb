@@ -31,7 +31,6 @@ emoticons.each do |meaning, array_values|
   emoticon_library['get_emoticon'][english_emoticon] = japenese_emoticon
 end
 emoticon_library
-binding.pry
 end
 
 # {"get_meaning"=>
