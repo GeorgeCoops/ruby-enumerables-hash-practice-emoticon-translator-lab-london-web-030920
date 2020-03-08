@@ -29,6 +29,7 @@ emoticons.each do |meaning, array_values|
   english_emoticon = array_values[0]
   japenese_emoticon = array_values[1]
   emoticon_library['get_meaning'][japenese_emoticon] = meaning
+  emoticon_library['get_emoticon'][english_emoticon] = japenese_emoticon
 end
 
 
