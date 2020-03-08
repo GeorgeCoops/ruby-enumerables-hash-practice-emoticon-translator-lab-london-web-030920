@@ -32,7 +32,7 @@ emoticons.each do |word, array_values|
 end
 
 
-emoticon_lib
+emoticon_library
 end
 
 def get_japanese_emoticon
