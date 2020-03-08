@@ -76,3 +76,5 @@ if english_meaning = emoticon_library['get_meaning'][emoticon]
   english_meaning = emoticon_library['get_meaning'][emoticon]
   return
 end
+'Sorry, that emoticon was not found'
+end
