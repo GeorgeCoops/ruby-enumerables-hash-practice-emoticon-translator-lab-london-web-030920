@@ -72,7 +72,7 @@ end
 def get_english_meaning(emoticon_file, emoticon)
   emoticon_library = load_library(emoticon_file)
 
-if english_meaning = emoticon_library['get_meaning'][emoticon] 
-  english_meaning = emoticon_library['get_meaning'][emoticon] 
+if english_meaning = emoticon_library['get_meaning'][emoticon]
+  english_meaning = emoticon_library['get_meaning'][emoticon]
   return
 end
