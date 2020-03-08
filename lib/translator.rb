@@ -34,6 +34,31 @@ emoticon_library
 binding.pry
 end
 
+# {"get_meaning"=>
+#  {"☜(⌒▽⌒)☞"=>"angel",
+#   "ヽ(ｏ`皿′ｏ)ﾉ"=>"angry",
+#   "(ΘεΘ;)"=>"bored",
+#   "(゜.゜)"=>"confused",
+#   "(#^.^#)"=>"embarrased",
+#   ">゜))))彡"=>"fish",
+#   "(^0_0^)"=>"glasses",
+#   "(￣ー￣)"=>"grinning",
+#   "(＾ｖ＾)"=>"happy",
+#   "(*^3^)/~☆"=>"kiss",
+#   "(Ｔ▽Ｔ)"=>"sad",
+#   "o_O"=>"surprised",
+#   "(^_-)"=>"wink"},
+# "get_emoticon"=>
+#  {"O:)"=>"☜(⌒▽⌒)☞",
+#   ">:("=>"ヽ(ｏ`皿′ｏ)ﾉ",
+#   ":O"=>"(ΘεΘ;)",
+#   "%)"=>"(゜.゜)",
+#   ":$"=>"(#^.^#)",
+#   "><>"=>">゜))))彡",
+#   "8D"=>"(^0_0^)",
+#   "=D"=>"(￣ー￣)",
+#   ":)"=>"(＾ｖ＾)",
+
 def get_japanese_emoticon(emoticon_file, emoticon)
 load_library(emoticon_file)
 end
