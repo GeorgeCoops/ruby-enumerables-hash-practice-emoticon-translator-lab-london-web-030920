@@ -25,7 +25,7 @@ emoticon_library = {
   :get_emoticon => {}
 }
 
-emoticons.each do |word, array_values| 
+emoticons.each do |word, array_values|
   english_value = array_values[0]
   japenese_value = array_values[1]
   emoticon_library[:get_meaning][]
