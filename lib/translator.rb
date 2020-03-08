@@ -10,7 +10,7 @@ emoticon_lib = {
   :get_meaning => {},
   :get_emoticon => {}
 }
-
+binding.pry
 
 emoticon_lib
 end
