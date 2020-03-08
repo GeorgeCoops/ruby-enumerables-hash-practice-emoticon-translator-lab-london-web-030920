@@ -30,11 +30,11 @@ emoticons.each do |meaning, array_values|
   emoticon_library['get_meaning'][japenese_emoticon] = meaning
   emoticon_library['get_emoticon'][english_emoticon] = japenese_emoticon
 end
-emoticon_library(emoticon_file, emoticon)
+emoticon_library
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(emoticon_file, emoticon)
+
 end
 
 def get_english_meaning
