@@ -8,7 +8,7 @@ emoticons = YAML.load_file(emoticon_file)
 
 emoticon_lib = {
   :get_meaning => {},
-  :get_emoticon => {} 
+  :get_emoticon => {}
 }
 
 
