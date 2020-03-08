@@ -72,9 +72,5 @@ end
 def get_english_meaning(emoticon_file, emoticon)
   emoticon_library = load_library(emoticon_file)
 
-if english_meaning = emoticon_library['get_meaning'][emoticon]
-  english_meaning = emoticon_library['get_meaning'][emoticon]
-  return
-end
-'Sorry, that emoticon was not found'
+english_meaning = emoticon_library['get_meaning'][emoticon]
 end
