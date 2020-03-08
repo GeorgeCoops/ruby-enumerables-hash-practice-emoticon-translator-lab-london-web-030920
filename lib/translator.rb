@@ -69,6 +69,9 @@ end
 'Sorry, that emoticon was not found'
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(emoticon_file, emoticon)
+  emoticon_library = load_library(emoticon_file)
+
+emoticon_library['get_meaning']
+
 end
