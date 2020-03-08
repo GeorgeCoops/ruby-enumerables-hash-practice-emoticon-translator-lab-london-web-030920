@@ -59,7 +59,7 @@ end
 #   ":)"=>"(＾ｖ＾)",
 
 def get_japanese_emoticon(emoticon_file, emoticon)
-load_library(emoticon_file)
+emoticon_library = load_library(emoticon_file)
 end
 
 def get_english_meaning
