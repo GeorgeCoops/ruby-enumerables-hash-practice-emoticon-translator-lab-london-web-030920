@@ -20,11 +20,17 @@ require "pry"
 def load_library(emoticon_file)
 emoticons = YAML.load_file(emoticon_file)
 
-emoticon_lib = {
+emoticon_library = {
   :get_meaning => {},
   :get_emoticon => {}
 }
-binding.pry
+
+emoticons.each do |word, array_values| 
+  english_value = array_values[0]
+  japenese_value = array_values[1]
+  emoticon_library[:get_meaning][]
+end
+
 
 emoticon_lib
 end
