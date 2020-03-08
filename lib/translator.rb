@@ -65,7 +65,6 @@ emoticon_library['get_emoticon'].each do |english_emoticon, japenese_emoticon|
  if emoticon === english_emoticon
    return japenese_emoticon
 end
-
 end
 
 def get_english_meaning
